@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "tab",
+  "definition": {
+    "name": "KotyaMod",
+    "icon": {
+      "value": "Blocks.IRON_DOOR"
+    },
+    "showSearch": true
+  }
+}

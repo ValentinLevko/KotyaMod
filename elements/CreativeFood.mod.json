@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "creativefood",
+    "customModelName": "Normal",
+    "name": "Creative Food",
+    "creativeTab": {
+      "value": "CUSTOM:TAB"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 1000.0,
+    "eatingSpeed": 0,
+    "forDogs": true,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": true
+  }
+}
