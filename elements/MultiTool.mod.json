@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "rid_ozhiestviennyi_multiinstrumient_ivine_",
+    "customModelName": "Normal",
+    "name": "Multi Tool",
+    "creativeTab": {
+      "value": "CUSTOM:TAB"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 348,
+    "efficiency": 100.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 10000.0,
+    "usageCount": 100000,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": []
+  }
+}

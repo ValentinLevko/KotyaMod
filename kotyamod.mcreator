@@ -88,6 +88,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "MultiTool",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -103,7 +111,8 @@
     "en_us": {
       "item.creativefuelitem.name": "Creative Fuel",
       "itemGroup.tabtab": "KotyaMod",
-      "item.creativefood.name": "Creative Food"
+      "item.creativefood.name": "Creative Food",
+      "item.multitool.name": "Multi Tool"
     }
   },
   "workspaceSettings": {
