@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kotyamod:blocks/diamond_block",
+    "up": "kotyamod:blocks/diamond_block",
+    "north": "kotyamod:blocks/diamond_block",
+    "east": "kotyamod:blocks/diamond_block",
+    "south": "kotyamod:blocks/diamond_block",
+    "west": "kotyamod:blocks/diamond_block",
+    "particle": "kotyamod:blocks/diamond_block"
+  }
+}

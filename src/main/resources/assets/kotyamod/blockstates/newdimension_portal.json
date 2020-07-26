@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "kotyamod:newdimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "kotyamod:newdimension_portal_ns"
+    },
+    "inventory": {
+      "model": "kotyamod:newdimension_portal_ns"
+    }
+  }
+}

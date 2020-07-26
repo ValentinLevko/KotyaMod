@@ -46,7 +46,7 @@ public class ItemCreativeFood extends ElementsKotyaMod.ModElement {
 
 		@Override
 		public int getMaxItemUseDuration(ItemStack stack) {
-			return 0;
+			return 1;
 		}
 
 		@Override

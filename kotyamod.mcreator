@@ -1,5 +1,7 @@
 {
-  "id_map": {},
+  "id_map": {
+    "DIMENSION": 1
+  },
   "mod_elements": [
     {
       "name": "TAG",
@@ -96,6 +98,32 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Ore",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Portalblock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NewDimension",
+      "type": "dimension",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 1
+      }
     }
   ],
   "variable_elements": [
@@ -110,9 +138,12 @@
   "language_map": {
     "en_us": {
       "item.creativefuelitem.name": "Creative Fuel",
+      "tile.portalblock.name": "Portalblock",
       "itemGroup.tabtab": "KotyaMod",
+      "tile.ore.name": "Ore",
       "item.creativefood.name": "Creative Food",
-      "item.multitool.name": "Multi Tool"
+      "item.multitool.name": "Multi Tool",
+      "item.newdimension.name": "New Dimension Portal Igniter"
     }
   },
   "workspaceSettings": {

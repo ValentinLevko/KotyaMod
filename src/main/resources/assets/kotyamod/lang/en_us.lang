@@ -1,4 +1,7 @@
 item.creativefuelitem.name=Creative Fuel
+tile.portalblock.name=Portalblock
 itemGroup.tabtab=KotyaMod
+tile.ore.name=Ore
 item.creativefood.name=Creative Food
 item.multitool.name=Multi Tool
+item.newdimension.name=New Dimension Portal Igniter

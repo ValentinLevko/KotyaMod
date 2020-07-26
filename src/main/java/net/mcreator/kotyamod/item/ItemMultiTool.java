@@ -49,7 +49,7 @@ public class ItemMultiTool extends ElementsKotyaMod.ModElement {
 	}
 	private static class ItemToolCustom extends Item {
 		protected ItemToolCustom() {
-			setMaxDamage(100000);
+			setMaxDamage(103000);
 			setMaxStackSize(1);
 		}
 
@@ -58,8 +58,8 @@ public class ItemMultiTool extends ElementsKotyaMod.ModElement {
 			Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(equipmentSlot);
 			if (equipmentSlot == EntityEquipmentSlot.MAINHAND) {
 				multimap.put(SharedMonsterAttributes.ATTACK_DAMAGE.getName(),
-						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Tool modifier", 9996f, 0));
-				multimap.put(SharedMonsterAttributes.ATTACK_SPEED.getName(), new AttributeModifier(ATTACK_SPEED_MODIFIER, "Tool modifier", -3, 0));
+						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Tool modifier", 99996f, 0));
+				multimap.put(SharedMonsterAttributes.ATTACK_SPEED.getName(), new AttributeModifier(ATTACK_SPEED_MODIFIER, "Tool modifier", -4, 0));
 			}
 			return multimap;
 		}
@@ -71,7 +71,7 @@ public class ItemMultiTool extends ElementsKotyaMod.ModElement {
 
 		@Override
 		public float getDestroySpeed(ItemStack par1ItemStack, IBlockState par2Block) {
-			return 100f;
+			return 100036.5f;
 		}
 
 		@Override

@@ -17,6 +17,6 @@ public class RecipeRecipe extends ElementsKotyaMod.ModElement {
 
 	@Override
 	public void init(FMLInitializationEvent event) {
-		GameRegistry.addSmelting(new ItemStack(Items.SLIME_BALL, (int) (1)), new ItemStack(Items.SLIME_BALL, (int) (1)), 256F);
+		GameRegistry.addSmelting(new ItemStack(Items.SLIME_BALL, (int) (1)), new ItemStack(Items.SLIME_BALL, (int) (10)), 256F);
 	}
 }
